@@ -122,10 +122,10 @@ fieldset {
   opacity: .93;
 }
 label {
-  margin: 5%;
+  margin-right: 3px;
 }
 .submit {
-  margin: 5px;
+  margin-left: 5px;
   font-size: 20px;
   margin-top: 2.5%; 
   width: 100px;
@@ -168,7 +168,7 @@ nav {
   margin-right: 2%;
   display: flex;
   font: var(--light);
-  font-size: 20px;;
+  font-size: 20px;
   opacity: .93;
   border-radius: 35px 0 35px 0;
   box-shadow: 
@@ -193,14 +193,11 @@ nav li{
   box-shadow: 
   0 0 7px var(--light),
   0 0 10px var(--light),
-  0 0 21px var(--light),
-  0 0 42px var(--mid2),
-  0 0 82px var(--mid2),
-  0 0 92px var(--mid2),
-  0 0 102px var(--mid2);
+  0 0 21px var(--mid2);
+ 
 }
-nav a:hover {
-  transform: scale(1.5);
+nav li:hover {
+  transform: scale(2);
   transition: 1s ease;
   cursor: pointer;
   box-shadow: 
