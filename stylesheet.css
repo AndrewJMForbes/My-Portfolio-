@@ -9,11 +9,10 @@
 }
 body {
   margin:0;
-  border: 30px groove #D3B88C;
-  box-shadow: inset 4px 4px 15px #D3B88C;
   background-image: url(/images/Memory-dali.jpg);
   background-repeat: no-repeat;
   background-size: cover ;
+  height: 100%;
  
 }
 h1 {
@@ -77,8 +76,8 @@ legend {
   0 0 151px var(--mid);
 }
 .family:hover {
-  transform: scale(2) rotateY(360deg);
-  transition: 1s ease;
+  transform: scale(1.8);
+  transition: 1.5s ease;
   cursor: pointer;
   box-shadow: 
   0 0 10px #f58116,
@@ -88,7 +87,7 @@ legend {
 }
 .preview:hover {
   transform: scale(2);
-  transition: 1s ease;
+  transition: 1.5s ease;
   cursor: pointer;
   box-shadow: 
   0 0 10px #f58116,
@@ -281,3 +280,267 @@ p {
   100% { transform: rotate( 0.0deg) }
 }
 /* site reference for waving hand https://codepen.io/jakejarvis/pen/pBZWZw */
+
+.lightsaber {
+  height: 120px;
+  display: inline-block;
+  margin-left: 3%;
+  
+}
+
+.piece1 {
+  background-color: rgb(48, 45, 45);
+  width: 100px;
+  height: 18px;
+  margin-top: -13px;
+  margin-left: -10px;
+  border: 2px inset black;
+  border-radius: 20px 0px 0px 0px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+}
+.piece1a {
+  background-color: rgb(241, 182, 20);
+  width: 90px;
+  height: 5px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: 2px inset black;
+  border-radius: 20px 0px 0px 0px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+}
+.piece2 {
+  background-color: rgb(48, 45, 45);
+  width: 105px;
+  height: 18px;
+  margin-top: 5px;
+  margin-left: -15px;
+  border: 2px inset black;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+ 
+}
+.piece2a {
+  background-color: rgb(241, 182, 20);
+  width: 95px;
+  height: 5px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: 2px inset black;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+}
+.piece3 {
+  background-color: rgb(48, 45, 45);
+  width: 105px;
+  height: 18px;
+  margin-top: 5px;
+  margin-left: -15px;
+  border: 2px inset black;
+  border-radius: 10px 0px 0px 10px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+}
+.piece3a {
+  background-color: rgb(241, 182, 20);
+  width: 95px;
+  height: 5px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: 2px inset black;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+}
+.piece4 {
+  background-color: rgb(48, 45, 45);
+  width: 100px;
+  height: 18px;
+  margin-top: 5px;
+  margin-left: -10px;
+  border: 2px inset black;
+  border-radius: 0px 0px 0px 20px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+ } 
+ .piece4a {
+  background-color: rgb(241, 182, 20);
+  width: 90px;
+  height: 5px;
+  margin-top: 4px;
+  margin-left: 5px;
+  border: 2px inset black;
+  border-radius: 0px 0px 0px 20px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+}
+.left {
+  background: linear-gradient(10deg, rgb(75, 69, 69), rgb(180, 162, 162), rgb(145, 145, 145), rgb(67, 67, 67));
+  width: 400px;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 23px;
+  margin-left: 10px;
+  border: 3px inset rgb(66, 77, 74);
+  border-radius: 25px 25px 25px 25px;
+  display: inline-block;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+}
+.mid {
+  background-color: rgb(48, 45, 45);
+  width: 80px;
+  height: 70px;
+  display: inline-block;
+  margin-left: -5px;
+  border: 2px inset goldenrod;
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+  
+}
+.wire1 {
+  background-color: goldenrod;
+  height: 70px;
+  width: 5px;
+  border: groove 1px gold;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px goldenrod;
+  display: inline-block;
+  border-radius: 2px 0 0 2px;
+}
+.wire2 {
+  background-color: goldenrod;
+  height: 70px;
+  width: 5px;
+  border: groove 1px gold;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px goldenrod;
+  display: inline-block;
+  border-radius: 2px 0 0 2px;
+}
+.wire3 {
+  background-color: goldenrod;
+  height: 70px;
+  width: 5px;
+  border: groove 1px gold;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px goldenrod;
+  display: inline-block;
+  border-radius: 2px 0 0 2px;
+}
+.wire4 {
+  background-color: goldenrod;
+  height: 70px;
+  width: 5px;
+  border: groove 1px gold;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px goldenrod;
+  display: inline-block;
+  border-radius: 2px 0 0 2px;
+}
+/* .wire5 {
+  background-color: goldenrod;
+  height: 70px;
+  width: 5px;
+  border: groove 1px gold;
+  margin-left: 8px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 2px goldenrod;
+  display: inline-block;
+  border-radius: 2px 0 0 2px;
+} */
+
+.right {
+  background: linear-gradient(10deg, rgb(75, 69, 69), rgb(180, 162, 162), rgb(145, 145, 145), rgb(67, 67, 67));
+  width: 100px;
+  height: 80px;
+  margin-bottom: 23px;
+  margin-left: -5px;
+  border: 3px inset rgb(66, 77, 74);
+  border-radius: 35px 5px 5px 35px;
+  display: inline-block;
+  box-shadow: 3px 3px 3px rgb(185, 180, 180);
+}
+.pommel {
+  background: linear-gradient(10deg, rgb(75, 69, 69), rgb(180, 162, 162), rgb(145, 145, 145), rgb(67, 67, 67));
+ height: 115px;
+ width: 50px;
+ display: inline-block;
+ margin-bottom: 5px;
+ margin-left: -10px;
+ border: 3px inset rgb(66, 77, 74);
+ border-radius: 20px 5px 5px 20px;
+ box-shadow: 3px 3px 3px rgb(199, 26, 26);
+}
+.blade {
+  background: linear-gradient(10deg, rgb(102, 12, 12), rgb(199, 26, 26), rgb(51, 2, 2), rgb(247, 3, 3));
+  animation: gradient 1s infinite;
+  background-size: contain;
+  width: 1100px;
+  height: 50px;
+  display: inline-block;
+  border: 2px solid rgb(177, 26, 126);
+  margin-bottom: 39px;
+  margin-left: -5px;
+  border-radius: 0 65px 65px 0;
+  box-shadow: 
+  0 0 7px rgb(230, 71, 71),
+  0 0 10px rgb(230, 71, 71),
+  0 0 21px rgb(230, 71, 71),
+  0 0 42px rgb(230, 71, 71);
+}
+.blade:hover {
+    transition: 1.5s ease;
+    cursor: pointer;
+    box-shadow: 
+    0 0 10px #6d0101,
+    0 0 21px #e71348,
+    0 0 42px rgb(245, 16, 16),
+    0 0 82px rgb(241, 58, 45);
+  }
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+   50% {
+    background-position: 100% 0%;
+   }
+   0% {
+    background-position: 0% 50%;
+   }
+  }
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 4%;
+  margin-bottom: 1%;
+  
+}
+footer a {
+  background-color: var(--dark);
+  font-size: 25px;
+  margin-left: 3%;
+  margin-right: 3%; 
+  margin-bottom: 1%;
+  padding: 15px;
+  border: solid 5px var(--mid);
+  border-radius: 35px 0 35px 0;
+  box-shadow: 
+  0 0 7px var(--light),
+  0 0 10px var(--light),
+  0 0 21px var(--mid2);
+}
+footer a:hover {
+  transition: 1s ease;
+  cursor: pointer;
+  box-shadow: 
+  0 0 7px var(--light),
+  0 0 10px var(--light),
+  0 0 21px var(--light),
+  0 0 42px var(--mid2),
+  0 0 82px var(--mid2),
+  0 0 92px var(--mid2),
+  0 0 102px var(--mid2),
+  0 0 151px var(--mid2);
+}
+
+
