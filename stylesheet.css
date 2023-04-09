@@ -279,9 +279,25 @@ p {
   90% { transform: rotate( 10.0deg) } 
   100% { transform: rotate( 0.0deg) }
 }
+.sun {
+ animation: rotation 1s infinite linear;
+ animation-name: spinning-sun;
+ animation-duration: 5s ;
+ animation-iteration-count: infinite;
+ transform-origin: 50% 55%;
+ animation-delay: revert;
+ display: inline-block;
+
+}
+@keyframes spinning-sun {
+   from {transform: rotate(0deg);}
+   to {transform: rotate(360deg);
+  
+
+}
 /* site reference for waving hand https://codepen.io/jakejarvis/pen/pBZWZw */
 
-.lightsaber {
+/* .lightsaber {
   height: 120px;
   display: inline-block;
   margin-left: 3%;
@@ -446,7 +462,7 @@ p {
   box-shadow: 1px 1px 2px goldenrod;
   display: inline-block;
   border-radius: 2px 0 0 2px;
-} */
+} 
 
 .right {
   background: linear-gradient(10deg, rgb(75, 69, 69), rgb(180, 162, 162), rgb(145, 145, 145), rgb(67, 67, 67));
@@ -506,13 +522,12 @@ p {
    0% {
     background-position: 0% 50%;
    }
-  }
+  } */
 footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
-  margin-right: 4%;
-  margin-bottom: 1%;
+  justify-content: center;
+  margin-top: 8%;
   
 }
 footer a {
