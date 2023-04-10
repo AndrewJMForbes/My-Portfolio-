@@ -45,7 +45,6 @@ p {
   padding-left: 3em;
   padding-right: 3em;
   padding-top: 1em;
-
   background-color: var(--dark);
   border: solid 2px  var(--mid2);
   width: 80%;
@@ -57,44 +56,27 @@ p {
   0 0 21px var(--light),
   0 0 42px var(--mid2);
 }/* site reference for waving hand https://codepen.io/jakejarvis/pen/pBZWZw */
+
+.slider {
+  max-width: 90%;
+  width: 95vw;
+  margin: auto;
+}
 .art {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: var(--dark);
-  width: 80%;
-  padding: 1%;
+  align-items: center;
+  gap: 40px;
+  height: 400px;
+  overflow-x: auto;
+  padding: 50px;
+  position: relative;
   
 }
-.pic1,
-.pic2,
-.pic3,
-.pic6,
-.pic9,
-.pic11,
-.pic12,
-.pic13,
-.pic14,
-.pic15a,
-.pic15b,
-.pic16,
-.pic17,
-.pic18,
-.pic19,
-.pic20,
-.pic21,
-.pic22,
-.pic23,
-.pic24,
-.pic25,
-.pic26,
-.pic27,
-.pic28,
-.pic29,
-.pic30 {
+.art > img{
+  display: inline-block;
   width: 160px;
   height: 211px;
-  margin:auto;
+  margin: 5px;
 }
 .pic4,
 .pic5,
@@ -105,50 +87,21 @@ p {
   width: 300px;
   margin: auto;
 }  
-.pic1:hover,
-.pic2:hover,
-.pic3:hover,
-.pic4:hover,
-.pic5:hover,
-.pic6:hover,
-.pic7:hover,
-.pic8:hover,
-.pic9:hover,
-.pic10:hover,
-.pic11:hover,
-.pic12:hover,
-.pic13:hover,
-.pic14:hover,
-.pic15a:hover,
-.pic15b:hover,
-.pic16:hover,
-.pic17:hover,
-.pic18:hover,
-.pic19:hover,
-.pic20:hover,
-.pic21:hover,
-.pic22:hover,
-.pic23:hover,
-.pic24:hover,
-.pic25:hover,
-.pic26:hover,
-.pic27:hover,
-.pic28:hover,
-.pic29:hover,
-.pic30:hover {
+.art > img:hover {
   transform: scale(2.0);
   transition: 1.5s ease;
   cursor: pointer; 
+  width: fit-content;
 }
+.right,
 .left {
-  width: 20px;
-}
-.right {
+  background-color: var(--mid);
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-end;
-  justify-content: flex-end;
-  width: 100px;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
 }
 legend {
   display: flex;
@@ -445,7 +398,7 @@ footer a:hover {
     background-image: url(/images/Memory-dali.jpg);
     background-repeat: no-repeat;
     background-size: cover ;
-    height: 100vh;
+    height: 100%;
    
   }
   nav li {
