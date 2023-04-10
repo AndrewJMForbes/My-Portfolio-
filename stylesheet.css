@@ -38,16 +38,15 @@ h2 {
 p {
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   font-size: 25px;
   margin-left: 6%;
-  padding-left: 3em;
-  padding-right: 3em;
-  padding-top: 1em;
+  padding: 2%;
   background-color: var(--dark);
   border: solid 2px  var(--mid2);
   width: 80%;
-  height: 400px;
+  height: 300px;
   border-radius: 35px 0 35px 0;
   box-shadow: 
   0 0 7px var(--light),
@@ -55,7 +54,19 @@ p {
   0 0 21px var(--light),
   0 0 42px var(--mid2);
 }/* site reference for waving hand https://codepen.io/jakejarvis/pen/pBZWZw */
-
+.hi {
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  margin-left: 2%;
+  margin-bottom: -4%; 
+  font-size: 60px;
+  background-color: var(--mid);
+  border: 1px solid pink;
+  box-shadow: 3px 3px 3px white;
+  opacity: .98;
+  transform: rotate(-20deg);
+}
 .slider {
   max-width: 90%;
   width: 95vw;
