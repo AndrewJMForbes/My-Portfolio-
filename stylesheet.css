@@ -63,26 +63,92 @@ p {
   justify-content: center;
   background-color: var(--dark);
   width: 80%;
-  margin-left: 9%;
   padding: 1%;
+  
 }
-.lich {
+.pic1,
+.pic2,
+.pic3,
+.pic6,
+.pic9,
+.pic11,
+.pic12,
+.pic13,
+.pic14,
+.pic15a,
+.pic15b,
+.pic16,
+.pic17,
+.pic18,
+.pic19,
+.pic20,
+.pic21,
+.pic22,
+.pic23,
+.pic24,
+.pic25,
+.pic26,
+.pic27,
+.pic28,
+.pic29,
+.pic30 {
   width: 160px;
   height: 211px;
   margin:auto;
 }
-.sf1,
-.sf2 {
+.pic4,
+.pic5,
+.pic7,
+.pic8,
+.pic10
+{
   width: 300px;
   margin: auto;
+}  
+.pic1:hover,
+.pic2:hover,
+.pic3:hover,
+.pic4:hover,
+.pic5:hover,
+.pic6:hover,
+.pic7:hover,
+.pic8:hover,
+.pic9:hover,
+.pic10:hover,
+.pic11:hover,
+.pic12:hover,
+.pic13:hover,
+.pic14:hover,
+.pic15a:hover,
+.pic15b:hover,
+.pic16:hover,
+.pic17:hover,
+.pic18:hover,
+.pic19:hover,
+.pic20:hover,
+.pic21:hover,
+.pic22:hover,
+.pic23:hover,
+.pic24:hover,
+.pic25:hover,
+.pic26:hover,
+.pic27:hover,
+.pic28:hover,
+.pic29:hover,
+.pic30:hover {
+  transform: scale(2.0);
+  transition: 1.5s ease;
+  cursor: pointer; 
 }
-.sig {
-  width: 159px;
-  margin: auto;
+.left {
+  width: 20px;
 }
-.verdict {
-  width: 162.5px;
-  margin: auto;
+.right {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100px;
 }
 legend {
   display: flex;
