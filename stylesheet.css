@@ -23,7 +23,6 @@ h1 {
 h2 {
   background-color: var(--dark);
   margin-left: 25%;
-  margin-bottom: 3em;
   padding: 1%;
   width: 50%;
   text-align: center;
@@ -318,14 +317,11 @@ section {
   0 0 42px var(--mid2);
   opacity: .93;
 }
-
-
 footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 2%;
-  
 }
 footer a {
   background-color: var(--dark);
