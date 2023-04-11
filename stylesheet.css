@@ -9,7 +9,7 @@
 }
 body {
   margin:0;
-  background-image: url(/images/Memory-dali.jpg);
+  background-image: linear-gradient(rgb(82, 29, 143), rgb(212, 189, 39));
   background-repeat: no-repeat;
   background-size: cover ;
   max-height: 100%;
@@ -63,7 +63,12 @@ p {
   font-size: 60px;
   background-color: var(--mid);
   border: 1px solid pink;
-  box-shadow: 3px 3px 3px white;
+  box-shadow: 3px 3px 3px rgb(183, 100, 189),
+  0 0 10px rgb(191, 115, 209),
+  0 0 16px rgb(165, 92, 197),
+  0 0 22px rgb(178, 119, 223),
+  0 0 30px rgb(235, 142, 219);
+
   opacity: .98;
   transform: rotate(-20deg);
 }
