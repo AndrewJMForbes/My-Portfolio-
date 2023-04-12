@@ -21,8 +21,11 @@ h1 {
   text-shadow: 2 2 7px var(--mid);
 }
 h2 {
+  font-size: 1em;
   background-color: var(--dark);
-  margin-left: 25%;
+  margin-left: 6em;
+  margin-bottom: 2em;
+  margin-top: 2em;
   padding: 1%;
   width: 50%;
   text-align: center;
@@ -33,7 +36,6 @@ h2 {
   0 0 10px var(--light),
   0 0 21px var(--light),
   0 0 42px var(--mid2);
-
 }
 p {
   display: flex;
@@ -251,12 +253,11 @@ footer a:hover {
   overflow-x: auto;
   padding: 50px;
   position: relative;
-  
 }
 .art > img{
   display: inline-block;
   width: 160px;
-  height: 211px;
+  height: auto;
   margin: 5px;
 }
 .pic4,
@@ -265,7 +266,8 @@ footer a:hover {
 .pic8,
 .pic10
 {
-  width: 300px;
+  width: 211px;
+  height: auto;
   margin: auto;
 }  
 .art > img:hover {
@@ -284,25 +286,26 @@ footer a:hover {
   width: 40px;
   height: 40px;
 }
-
 .talk {
   background-color: var(--dark);
 }
 .sites {
-  font-size: 1.25em;
-  margin: 4.5em;
+  text-align: center;
+  font-size: 1.2em;
+  margin-left: 5em;
+
 }
 .hold {
   width: 18em;
   margin-left: 3.5em;
   margin-bottom: 2em;
 }
-
 .preview {
   width: 80%;
   height: 60%;
   margin-left: 10%;
   margin-right: 10%;
+  margin-bottom: 1em;
   display: block;
 }
 .family {
@@ -342,7 +345,6 @@ footer a:hover {
   0 0 42px rgb(255, 218, 54),
   0 0 82px rgb(241, 58, 45);
 }
-
 .submit {
   margin-left: 5px;
   font-size: 20px;
@@ -426,7 +428,6 @@ footer a:hover {
       0 0 16px rgb(165, 92, 197),
       0 0 22px rgb(178, 119, 223),
       0 0 30px rgb(235, 142, 219);
-    
       opacity: .98;
       transform: rotate(-20deg);
     }
