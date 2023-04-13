@@ -256,8 +256,8 @@ footer a:hover {
 }
 .art > img{
   display: inline-block;
-  width: 160px;
-  height: auto;
+  width: 180px;
+  height: 220px;
   margin: 5px;
 }
 .pic4,
@@ -267,7 +267,7 @@ footer a:hover {
 .pic10
 {
   width: 211px;
-  height: auto;
+  height: 300px;
   margin: auto;
 }  
 .art > img:hover {
