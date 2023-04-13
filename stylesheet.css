@@ -481,6 +481,10 @@ footer a:hover {
     0 0 42px var(--mid2);
     overflow: auto;
   }
+  fieldset {
+    margin-bottom: 6em;
+    margin-left: 7em;
+  }
   .hi {
     display: flex;
     justify-content: center;
@@ -547,6 +551,14 @@ footer a:hover {
     0 0 21px var(--light),
     0 0 42px var(--mid2);
     overflow: auto;
+  }
+  fieldset {
+    margin-bottom: 2em;
+    margin-left: 3em; 
+    height: 20em;
+  }
+  footer a {
+    margin-bottom: 1em;
   }
   .hi {
     display: flex;
