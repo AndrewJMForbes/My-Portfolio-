@@ -269,6 +269,7 @@ footer a:hover {
   width: 211px;
   height: 300px;
   margin: auto;
+  /* these photos are separate from the .art > img propertie due to being landscape photos and I couldn't find a way to make them work inside the other property */
 }  
 .art > img:hover {
   transform: scale(2.0);
@@ -448,12 +449,13 @@ footer a:hover {
     nav {
       display: flex;
       margin-left: 4em;
-      width: 80%;
+      width: 80vw;
       
     }
     nav li {
       line-height: 4em;
       margin-right: 8em;
+      width: 80vw;
     } 
 }
 
@@ -509,7 +511,7 @@ footer a:hover {
     display: flex;
     margin-left: 7%;
     margin-right: 7%;
-    width: 80%;
+    width: 75vw;
   }
   nav li {
     line-height: 4em;
@@ -542,7 +544,7 @@ footer a:hover {
     padding: 5%;
     background-color: var(--dark);
     border: solid 2px  var(--mid2);
-    width: 80%;
+    width: 60vw;
     height: 80%;
     border-radius: 35px 0 35px 0;
     box-shadow: 
@@ -553,12 +555,28 @@ footer a:hover {
     overflow: auto;
   }
   fieldset {
+    display: block;
     margin-bottom: 2em;
-    margin-left: 3em; 
-    height: 20em;
+    margin-left: 1.75em;
+    padding-left: 3em;
+    width: 50vw;
+    height: 18em;
+  }
+  .talk {
+    font-size: 1.5em;
+    width: 50%;
+  }
+  legend {
+    padding: .25em;
+    width: 3em;
+    height: 2em;
+  }
+  .submit{
+    margin-left: 1.5em;
   }
   footer a {
     margin-bottom: 1em;
+    width: 100vw;
   }
   .hi {
     display: flex;
@@ -585,7 +603,7 @@ footer a:hover {
     display: flex;
     margin-left: 7%;
     margin-right: 7%;
-    width: 75%;
+    width: 60vw;
   }
   
    body {
